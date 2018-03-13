@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my colour paragraph</title>
+     <script>
+      function coloUrchange(newFont)
+      {
+        document.getElementById("make").style.color=newFont;
+      }
+    </script>
+  </head>
+  <body>
+    <p id="make">A paragraph (from the Ancient Greek παράγραφος paragraphos, "to write beside" or "written beside") is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of more than one sentence.</p>
+    <input name="colour" type="radio" value="red" onclick="coloUrchange('red');">Red<br>
+    <input name="colour" type="radio" value="blue" onclick="coloUrchange('blue');">blue<br>
+    <input name="colour" type="radio" value="green" onclick="coloUrchange('green');">green<br>
+  </body>
+</html>

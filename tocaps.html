@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tocaps letters</title>
+    <script>
+      function toCaps()
+      {
+        var x=document.getElementById("cap");
+       x.value= x.value.toUpperCase();
+      }
+    </script>
+  </head>
+  <body>
+    Enter capital text:<input id="cap" type="text" onblur="toCaps();"><br>
+    <p id="para"></p>
+  </body>
+</html>

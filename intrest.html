@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>simple intrest</title>
+    <script>
+      function calIntrest()
+      {
+        var res;
+        var p=document.getElementById('p').value;
+        var t=document.getElementById('t').value;
+        var r=document.getElementById('r').value;
+        res=(p*t*r)/100;
+        document.getElementById("para").innerHTML="simple intrest = "+res;
+      }
+    </script>
+  </head>
+  <body>
+    <h2>FINDING SIMPLE INTREST</h2>
+    Principle(P):<input id="p" type="text" placeholder="enter Principle"><br><br>
+    Time(t):<input id="t" type="text" placeholder="enter time(in years)"><br><br>
+    Rate(r):<input id="r" type="text" placeholder="enter rate"><br><br>
+    <input type="button" value="submit" onclick="calIntrest();"><br><br>
+    <p id="para"></p>
+  </body>
+</html>
